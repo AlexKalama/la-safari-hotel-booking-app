@@ -13,7 +13,7 @@ export default function HomePage() {
         {/* Beach Image Background */}
         <div className="absolute inset-0 w-full h-full z-0">
           <Image
-            src="/images/beach-paradise.jpg"
+            src="/Images/beach-paradise.jpg"
             alt="Beach Paradise"
             fill
             priority
@@ -51,12 +51,12 @@ export default function HomePage() {
               {
                 title: "Restaurant & Bar",
                 description: "Enjoy fine dining and refreshing beverages in our elegant restaurant and bar.",
-                image: "/images/Restaurant.jpg",
+                image: "/Images/Restaurant.jpg",
               },
               {
                 title: "Spa",
                 description: "Indulge in a soothing retreat at our spa, offering a range of rejuvenating treatments.",
-                image: "/images/spa.jpg",
+                image: "/Images/spa.jpg",
               },
               {
                 title: "Event Spaces",
@@ -66,17 +66,17 @@ export default function HomePage() {
               {
                 title: "Pools",
                 description: "Experience tranquility in our captivating pools, ideal for a rejuvenating swim.",
-                image: "/images/pools.jpg",
+                image: "/Images/pools.jpg",
               },
               {
                 title: "Accommodations",
                 description: "Unwind in our plush accommodations, thoughtfully designed for your comfort and relaxation.",
-                image: "/images/rooms.jpg",
+                image: "/Images/rooms.jpg",
               },
               {
                 title: "Recreation & Activities",
                 description: "Engage in a variety of fun-filled recreational activities, designed for your entertainment and leisure.",
-                image: "/images/recreation.jpg",
+                image: "/Images/recreation.jpg",
               },
             ].map((amenity, i) => (
               <Card key={i} className="overflow-hidden">
